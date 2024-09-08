@@ -1,4 +1,4 @@
-import { IUser } from "./types";
+import { IUser } from "../../types/types";
 import { userDao } from "./dao";
 import { compare } from "bcrypt";
 import { sign } from "jsonwebtoken";
